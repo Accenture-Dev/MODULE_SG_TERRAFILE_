@@ -1,8 +1,13 @@
 ## Para usar o módulo >
 
-### 1. Faça o download do repositório:
+### 1. Faça o clone do repositório:
 https://github.com/Accenture-Dev/module_SG_terrafile.git
 git@github.com:Accenture-Dev/module_SG_terrafile.git
+
+Existem duas releases:
+
+https://github.com/Accenture-Dev-private/module_SG/releases/tag/1ingress_1egress
+https://github.com/Accenture-Dev-private/module_SG/releases/tag/2ingress_1egress
 
 ***1.1*** Caso seja uma mudança em um SG já existente:
 
