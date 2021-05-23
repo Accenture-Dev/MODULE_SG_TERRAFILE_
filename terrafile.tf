@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "SG" {
-  source      =  "git@github.com:Accenture-Dev-private/module_SG.git"
+  source      =  "git@github.com:Accenture-Dev-private/module_SG?ref=1ingress_1egress"
   name        =  "3306"
   description =  "3306"
   vpc_id      =  "vpc-0b1805b1719350c02"
