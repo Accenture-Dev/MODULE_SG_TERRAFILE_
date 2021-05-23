@@ -5,23 +5,23 @@ provider "aws" {
 
 module "SG" {
   source      =  "git@github.com:Accenture-Dev-private/module_SG.git"
-  name        =  " and "
-  description =  " and "
-  vpc_id      =  ""
+  name        =  "22 and 80"
+  description =  "22 and 80"
+  vpc_id      =  "vpc-05b7c1708c7cce573"
 
 ### ingress1
 
-  ingress_description1 = "port '' for ip"
-  from_port_ingress1   = ""
-  to_port_ingress1     = ""
+  ingress_description1 = "port 22 for ip"
+  from_port_ingress1   = 22
+  to_port_ingress1     = 22
   protocol_ingress1    = "tcp"
   cidr_blocks_ingress1 = ["0.0.0.0/0"]
 
 ### ingress2
 
   ingress_description2 = "port 80 for ip"
-  from_port_ingress2   = ""
-  to_port_ingress2     = ""
+  from_port_ingress2   = 80
+  to_port_ingress2     = 80
   protocol_ingress2    = "tcp"
   cidr_blocks_ingress2 = ["0.0.0.0/0"]
 
