@@ -5,9 +5,11 @@ provider "aws" {
 
 module "SG" {
   source      =  "git@github.com:Accenture-Dev-private/module_SG.git"
+#  source      = "git@github.com:Accenture-Dev-private/module_SG?ref=2ingress_1egress"
+#  source      = "git@github.com:Accenture-Dev-private/module_SG?ref=1ingress_1egress"
   name        =  " and "
   description =  " and "
-  vpc_id      =  "vpc-0b1805b1719350c02"
+  vpc_id      =  ""
 
 ### ingress1
 
