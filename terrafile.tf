@@ -7,7 +7,7 @@ module "SG" {
   source      =  "git@github.com:Accenture-Dev-private/module_SG?ref=2ingress_1egress"
   name        =  "22 and 80"
   description =  "22 and 80"
-  vpc_id      =  "vpc-0b1805b1719350c02"
+  vpc_id      =  "vpc-0351646fc3e05b6c3"
 
 ### ingress1
 
