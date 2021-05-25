@@ -23,7 +23,7 @@ module "SG" {
   from_port_ingress2   = 80
   to_port_ingress2     = 80
   protocol_ingress2    = "tcp"
-  cidr_blocks_ingress2 = ["24.152.46.100/32"]
+  cidr_blocks_ingress2 = ["0.0.0.0/0"]
 
 ### egress
 
