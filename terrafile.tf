@@ -15,7 +15,7 @@ module "SG" {
   from_port_ingress1   = "3306"
   to_port_ingress1     = "3306"
   protocol_ingress1    = "tcp"
-  cidr_blocks_ingress1 = ["0.0.0.0/0"]
+  cidr_blocks_ingress1 = ["24.152.46.100/32"]
 
 ### ingress2
 
